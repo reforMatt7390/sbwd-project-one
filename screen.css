@@ -1,0 +1,26 @@
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  //html impacts ALL elements, like a default setting
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Georgia, "Times New Roman", Times, Roman, serif;
+  //this takes precidence over 'html' because it is more specific
+}
+
+
+
+p {
+  color: purple;
+}
+
+.intro {
+  color: orange;
+  //could also be p.into if we only want that one intro
+}
+
+nav a {
+  text-decoration: none;
+  //get rid of the underline for links
+}

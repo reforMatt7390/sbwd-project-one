@@ -14,10 +14,16 @@ h1,h3{
   //center the main header
 }
 
+h1,h2{
+  color: #fde1ad;
+  //off-white
+}
+
 h3{
   font-family: "Gill Sans", sans-serif;
   font-size: 90%;
-  //change h3 to look like a sub-heading
+  color: #709fb0;
+  //light blue
 }
 
 img{
@@ -26,18 +32,12 @@ img{
   margin-right: auto;
   width: 50%;
   border-radius: 10px;
+  border: 3px solid #fc463b;
 }
+
+body {background-color: #29415b;}
 
 p {
-  color: purple;
-}
-
-.intro {
-  color: orange;
-  //could also be p.into if we only want that one intro
-}
-
-nav a {
-  text-decoration: none;
-  //get rid of the underline for links
+  color: #709fb0;
+  //light blue
 }

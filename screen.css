@@ -37,7 +37,7 @@ img{
 
 body {background-color: #29415b;}
 
-p {
+p,ul,li{
   color: #709fb0;
   //light blue
 }
